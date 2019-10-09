@@ -33,7 +33,9 @@ mvn install liberty:run-server
 ````
 
 When you see the message The server defaultServer is ready to run a smarter planet., you can view your app at: 
+
 Webservice:		http://localhost:9080/liberty-jax-ws-sample/HelloWorld
+
 WSDL is at: 	http://localhost:9080/liberty-jax-ws-sample/HelloWorld?wsdl
 
 To stop your app, press Ctrl-C in the command-line window where you started the app.
@@ -99,7 +101,7 @@ From within the liberty-jax-ws-sample directory, push your application to IBM Cl
 ibmcloud cf push
 ````
 
-Deploying your application can take a few minutes. When deployment completes, a message shows that your app is running. View your app at the URL listed in the output of the push command with "/GetStartedJava" appended to the end, or view both the app deployment status and the URL by running the following command:
+Deploying your application can take a few minutes. When deployment completes, a message shows that your app is running. View your app at the URL listed in the output of the push command with "/liberty-jax-ws-sample" appended to the end, or view both the app deployment status and the URL by running the following command:
 
 ````
 ibmcloud cf apps
@@ -107,10 +109,11 @@ ibmcloud cf apps
 
 You can troubleshoot errors in the deployment process by using the ibmcloud cf logs jax-ws-sample --recent command.
 
-Webservice:		http://<your-hostname>/liberty-jax-ws-sample/HelloWorld
-e.g. 			http://liberty-jax-ws-sample.eu-de.mybluemix.net/liberty-jax-ws-sample/HelloWorld
+Webservice:		http://YOUR_HOST_NAME/liberty-jax-ws-sample/HelloWorld
 
-WSDL is at: 	http://<your-hostname>/liberty-jax-ws-sample/HelloWorld?wsdl
+e.g. 			    http://liberty-jax-ws-sample.eu-de.mybluemix.net/liberty-jax-ws-sample/HelloWorld
+
+WSDL is at: 	http://YOUR_HOST_NAME/liberty-jax-ws-sample/HelloWorld?wsdl
 
 
 ## References
