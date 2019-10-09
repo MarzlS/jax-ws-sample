@@ -13,7 +13,7 @@ git clone https://github.com/MarzlS/liberty-jax-ws-sample.git
 
 ### Step 2: Run the app locally using command line
 Use Maven to build your source code and run the resulting app.
-1. On the command line, change the directory to where the sample app is located.
+On the command line, change the directory to where the sample app is located.
 
 ````
 cd liberty-jax-ws-sample
@@ -42,12 +42,14 @@ To stop your app, press Ctrl-C in the command-line window where you started the 
 To deploy to IBM Cloud, it can be helpful to set up a manifest.yml file. The manifest.yml includes basic information about your app, such as the name, how much memory to allocate for each instance and the route. We've provided a sample manifest.yml file in the jax-ws-sample directory.
 Open the manifest.yml file, and change the name from jax-ws-sample to your app name
 
+````
   applications:
    - name: liberty-jax-ws-sample
      random-route: true
      path: target/liberty-jax-ws-sample.war
      memory: 512M
      instances: 1
+````
 
 In this manifest.yml file, random-route: true generates a random route for your app to prevent your route from colliding with others. If you choose to, you can replace random-route: true with host: myChosenHostName, supplying a host name of your choice.
 
