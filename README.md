@@ -1,5 +1,5 @@
 # WebSphere Liberty JAX-WS Sample
-Sample of a JAX-WS application tjat can be deployed on IBM Cloud Foundry Liberty container
+Sample of a JAX-WS application that can be deployed on IBM Cloud Foundry Liberty container.
 
 ## Before you begin
 
