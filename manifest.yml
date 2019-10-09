@@ -1,0 +1,7 @@
+---
+applications:
+ - name: liberty-jax-ws-sample
+   random-route: true
+   path: target/liberty-jax-ws-sample.war
+   memory: 256M
+   instances: 1
