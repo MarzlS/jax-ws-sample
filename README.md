@@ -1,5 +1,5 @@
 # WebSphere Liberty JAX-WS Sample
-Sample of a JAX-WS application that can be deployed on IBM Cloud Foundry Liberty container.
+Sample of a JAX-WS (SOAP/XML web services) application that can be deployed on IBM Cloud either as Cloud Foundry WebSphere Liberty container or as Kubernetes container. 
 
 ## Before you begin
 
